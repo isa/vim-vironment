@@ -8,6 +8,7 @@ call vundle#rc()
 Bundle 'isa/vim-vundle'
 
 " My Bundles here:
+Bundle 'isa/vim-ack'
 Bundle 'isa/vim-clojure'
 Bundle 'isa/vim-commentary'
 Bundle 'isa/vim-easymotion'

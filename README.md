@@ -14,6 +14,7 @@ My custom configuration for MacVim.
 ### Supported Vim Plugins
 
 * "Vundle":http://www.vim.org/scripts/script.php?script_id=2332 (For bundling support)
+* "Ack":http://www.vim.org/scripts/script.php?script_id=2572 (Ack support)
 * "Clojure":http://www.vim.org/scripts/script.php?script_id=2501 (For Clojure support)
 * "Commentary":http://www.vim.org/scripts/script.php?script_id=3695 (Very simple commenting plugin)
 * "Easy Motion":http://www.vim.org/scripts/script.php?script_id=3526 (Extends Vim motion capabilities, very neat)
