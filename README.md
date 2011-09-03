@@ -25,7 +25,6 @@ My custom configuration for MacVim.
 * "Match It":http://www.vim.org/scripts/script.php?script_id=39 (Fixes matching tags for HTML)
 * "SnipMate":https://github.com/garbas/vim-snipmate.git (Enables TextMate like completions)
 * "Spark Up":https://github.com/rstacruz/sparkup.git (Enables Zen style coding)
-* "Super Tab":http://www.vim.org/scripts/script.php?script_id=1643 (Enables autocompletion with &lt;Tab&gt; instead of &lt;c-p&gt;)
 
 ### Mappings
 

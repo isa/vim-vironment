@@ -17,7 +17,6 @@ Bundle 'isa/vim-lusty'
 Bundle 'isa/vim-markdown'
 Bundle 'isa/vim-matchit'
 Bundle 'isa/vim-sparkup'
-Bundle 'isa/vim-supertab'
 
 " Snipmate
 Bundle 'isa/vim-addon-mw-utils'
