@@ -18,12 +18,6 @@ Bundle 'isa/vim-markdown'
 Bundle 'isa/vim-matchit'
 Bundle 'isa/vim-sparkup'
 
-" Snipmate
-Bundle 'isa/vim-addon-mw-utils'
-Bundle 'isa/vim-tlib'
-Bundle 'isa/vim-snipmate-snippets'
-Bundle 'isa/vim-snipmate'
-
 filetype plugin indent on
 
 syn on

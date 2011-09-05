@@ -18,6 +18,9 @@ nnoremap <F8> :setl noai nocin nosi inde=<CR>
 " Use control+enter or jj for escaping
 inoremap jj <esc>
 
+" !! to write file as sudo
+cmap w!! %!sudo tee > /dev/null %
+
 vnoremap > ><CR>gv
 vnoremap < <<CR>gv
 

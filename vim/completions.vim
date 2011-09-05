@@ -4,7 +4,7 @@
 abbr teh the
 abbr hign hing
 abbr nign ning
-abbr lenght lenght
+abbr lenght length
 abbr heigth height
 abbr widht width
 
