@@ -17,6 +17,7 @@ Bundle 'isa/vim-lusty'
 Bundle 'isa/vim-markdown'
 Bundle 'isa/vim-matchit'
 Bundle 'isa/vim-sparkup'
+Bundle 'isa/vim-slim'
 
 filetype plugin indent on
 
