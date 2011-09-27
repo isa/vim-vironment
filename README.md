@@ -23,6 +23,7 @@ My custom configuration for MacVim.
 * "LustyExplorer":http://www.vim.org/scripts/script.php?script_id=1890 (For browsing filesystem, 10 times better than NERDTree)
 * "Markdown":http://www.vim.org/scripts/script.php?script_id=1242 (Adds Markdown syntax support)
 * "Match It":http://www.vim.org/scripts/script.php?script_id=39 (Fixes matching tags for HTML)
+* "Slim":https://github.com/isa/vim-slim (Slim template support for Vim)
 * "SnipMate":https://github.com/garbas/vim-snipmate.git (Enables TextMate like completions)
 * "Spark Up":https://github.com/rstacruz/sparkup.git (Enables Zen style coding)
 

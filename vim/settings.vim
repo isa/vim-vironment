@@ -18,6 +18,7 @@ au BufEnter * set expandtab ts=3 sw=3 sts=3
 au BufNewFile * set fenc=utf-8 encoding=utf-8
 au BufRead,BufNewFile {Gemfile,Rakefile,Capfile,*.rake,config.ru} set ft=ruby
 au BufRead,BufNewFile {*.md,*.mkd,*.markdown} set ft=markdown
+au! BufNewFile * silent! 0r ~/.vim/skel/template.%:e
 
 set hlsearch " for highlight
 set incsearch " incremental search
