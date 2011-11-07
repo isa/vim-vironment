@@ -7,10 +7,12 @@ nnoremap Y y$
 vnoremap <BS> d
 
 " Format xml files
-map <F2> :silent 1,$!xmllint --format --recover - 2>/dev/null<cr>
+nnoremap <F2> :silent 1,$!xmllint --format --recover - 2>/dev/null<cr>
 
-" Format xml files
-map <F5> :GundoToggle<cr>
+nnoremap <F3> :TagbarToggle<cr>
+
+" Show Gundo browser
+nnoremap <F5> :GundoToggle<cr>
 
 "disable autoindent
 nnoremap <F8> :setl noai nocin nosi inde=<CR>

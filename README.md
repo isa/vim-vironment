@@ -26,6 +26,7 @@ My custom configuration for MacVim.
 * "Slim":https://github.com/isa/vim-slim (Slim template support for Vim)
 * "SnipMate":https://github.com/garbas/vim-snipmate.git (Enables TextMate like completions)
 * "Spark Up":https://github.com/rstacruz/sparkup.git (Enables Zen style coding)
+* "Tagbar":https://github.com/isa/vim-tagbar (Enables ctags browsing, requires ctags-exuberant to be installed in the system)
 
 ### Mappings
 
@@ -42,5 +43,6 @@ My custom configuration for MacVim.
 
 ### Plugin Settings/Mappings
 
+* Tagbar is mapped to F3
 * Gundo is mapped to F5
 * EasyMotion lead key is ,m

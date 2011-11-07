@@ -18,6 +18,7 @@ Bundle 'isa/vim-markdown'
 Bundle 'isa/vim-matchit'
 Bundle 'isa/vim-sparkup'
 Bundle 'isa/vim-slim'
+Bundle 'isa/vim-tagbar'
 
 filetype plugin indent on
 
