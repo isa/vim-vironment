@@ -12,14 +12,14 @@ let g:colors_name = "bclear"
 
 "---GUI settings
 hi SpecialKey   guifg=#000000   guibg=#ffcde6
-hi NonText      guifg=#969696   guibg=#f7f7f7   gui=none
+hi NonText      guifg=#e0e0e0   guibg=#fbfbfb   gui=none
 hi Directory    guifg=#78681a
 hi ErrorMsg     guifg=#ffffff   guibg=#a01010
 hi IncSearch    guifg=#ffffff   guibg=#ff8000   gui=none
 hi Search       guifg=#000000   guibg=#ffd073
 hi MoreMsg      guifg=#ffffff   guibg=#3c960f   gui=none
 hi ModeMsg      guifg=#323232                   gui=none
-hi LineNr       guifg=#969696   guibg=#f7f7f7
+hi LineNr       guifg=#aaaaaa   guibg=#f3f3f3
 hi Question     guifg=#000000   guibg=#ffde37   gui=none
 hi StatusLine   guifg=#ffffff   guibg=#323232   gui=none
 hi StatusLineNC guifg=#f7f7f7   guibg=#646464   gui=none
@@ -56,12 +56,12 @@ hi lCursor      guifg=#ffffff   guibg=#004364
 hi MatchParen   guifg=#ffffff   guibg=#f00078
 hi Normal       guifg=#323232   guibg=#ffffff
 hi Comment      guifg=#969696
-hi Constant     guifg=#1094a0
+hi Constant     guifg=#d18148   guibg=#fbffe8
 hi Special      guifg=#dc6816
 hi Identifier   guifg=#3c960f
 hi Statement    guifg=#3b6ac8                   gui=none
 hi PreProc      guifg=#294a8c
-hi Type         guifg=#a00050                   gui=none
+hi Type         guifg=#f00078                   gui=none
 hi Underlined   guifg=#323232                   gui=underline
 hi Ignore       guifg=#c8c8c8
 hi Error        guifg=#ffffff   guibg=#c81414
