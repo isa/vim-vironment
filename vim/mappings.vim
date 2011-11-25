@@ -20,6 +20,12 @@ nnoremap <F8> :setl noai nocin nosi inde=<CR>
 " Use control+enter or jj for escaping
 inoremap jj <esc>
 
+" Use block mode cursor moves by default for up/down keys
+nnoremap j gj
+vnoremap j gj
+nnoremap k gk
+vnoremap k gk
+
 " !! to write file as sudo
 cmap w!! %!sudo tee > /dev/null %
 
@@ -41,6 +47,10 @@ nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<cr>
 
 " Retab everything
 nnoremap <leader>T :set expandtab<cr>:retab!<cr>
+
+" Fuzzy finder
+nnoremap <leader>f :FufFile<cr>
+nnoremap <leader>b :FufBuffer<cr>
 
 " Load vimrc in a new tab with ",ev", reload vimrc with ",V"
 nnoremap <leader>ev :tabedit $MYVIMRC<cr>

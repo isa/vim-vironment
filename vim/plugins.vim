@@ -6,9 +6,11 @@ let vimclojure#ParenRainbow=1                            " Rainbow parentheses'!
 
 let g:EasyMotion_leader_key = '<Leader>m'                " EasyMotion plugin leader map
 
+" Commentary
 autocmd FileType apache set commentstring=#\ %s
 autocmd FileType python set commentstring=#\ %s
 autocmd FileType java set commentstring=//\ %s
 autocmd FileType jproperties set commentstring=#\ %s
 
-
+" Fuzzy finder
+autocmd FileType fuf inoremap <buffer> <Tab> <CR>

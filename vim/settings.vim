@@ -1,13 +1,13 @@
 " ======= GENERAL SETTINGS =======
 
 if has("gui_running")
-   winpos 620 70
+   winpos 720 23
    set guifont=Monaco:h12
    set guioptions-=T
    set guioptions-=L
    set guioptions-=r
-   set lines=44
-   set columns=110
+   set lines=48
+   set columns=102
    set cursorline
    set browsedir=buffer
    set lazyredraw " to speed up
@@ -47,7 +47,11 @@ set vb " set the visual bell
 set backspace=indent,eol,start " Allow backspacing over indent, eol, and the start of an insert
 set wildmenu
 set list
-set listchars=tab:▸\ ,eol:¬,trail:⋅
+set listchars=tab:▸\ ,eol:¬,trail:⋅,extends:❯,precedes:❮
+set showbreak=↪
+
+set splitbelow
+set splitright
 
 set hidden "enables switching between buffers while having unsaved changes
 
@@ -58,7 +62,8 @@ set noswapfile
 
 "folding settings
 set foldmethod=indent   "fold based on indent
-set foldnestmax=3       "deepest fold is 3 levels
+set foldnestmax=10      "fold nest level maximum is 10
 set nofoldenable        "dont fold by default
 set foldopen=block,insert,jump,mark,percent,quickfix,search,tag,undo " These commands open folds
+set foldlevel=1
 

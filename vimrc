@@ -12,23 +12,26 @@ Bundle 'isa/vim-ack'
 Bundle 'isa/vim-clojure'
 Bundle 'isa/vim-commentary'
 Bundle 'isa/vim-easymotion'
+Bundle 'isa/vim-l9'
+Bundle 'isa/vim-fuzzyfinder'
 Bundle 'isa/vim-gundo'
-Bundle 'isa/vim-lusty'
 Bundle 'isa/vim-markdown'
 Bundle 'isa/vim-matchit'
 Bundle 'isa/vim-sparkup'
 Bundle 'isa/vim-slim'
 Bundle 'isa/vim-tagbar'
+Bundle 'isa/vim-csapprox'
 
 filetype plugin indent on
 
 syn on
 set synmaxcol=2048 " Syntax coloring lines that are too long just slows down the world
-set background=dark
+set background=light
 set t_Co=256 " Set colors to 256 min
 
 " Stuff I change the most
-colo jellybeans
+" colo jellybeans
+colo bclear
 set expandtab ts=3 sw=3 sts=3
 set path=$HOME/Projects/** " Enable find command under projects dir
 
