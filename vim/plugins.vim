@@ -14,3 +14,6 @@ autocmd FileType jproperties set commentstring=#\ %s
 
 " Fuzzy finder
 autocmd FileType fuf inoremap <buffer> <Tab> <CR>
+
+let g:easytags_file = '$HOME/.vim/bundle/vim-easytags/doc/tags'  " Easytags tags file
+let g:easytags_always_enabled = 1                                " Enable dynamic highlighting all the time

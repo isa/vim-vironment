@@ -11,7 +11,7 @@ endif
 let g:colors_name = "bclear"
 
 "---GUI settings
-hi SpecialKey   guifg=#000000   guibg=#ffcde6
+hi SpecialKey   guifg=#e0e0e0   guibg=#fbfbfb
 hi NonText      guifg=#e0e0e0   guibg=#fbfbfb   gui=none
 hi Directory    guifg=#78681a
 hi ErrorMsg     guifg=#ffffff   guibg=#a01010
@@ -55,7 +55,7 @@ hi Cursor       guifg=#ffffff   guibg=#323232
 hi lCursor      guifg=#ffffff   guibg=#004364
 hi MatchParen   guifg=#ffffff   guibg=#f00078
 hi Normal       guifg=#323232   guibg=#ffffff
-hi Comment      guifg=#969696
+hi Comment      guifg=#aaaaaa
 hi Constant     guifg=#d18148   guibg=#fbffe8
 hi Special      guifg=#dc6816
 hi Identifier   guifg=#3c960f
@@ -66,4 +66,8 @@ hi Underlined   guifg=#323232                   gui=underline
 hi Ignore       guifg=#c8c8c8
 hi Error        guifg=#ffffff   guibg=#c81414
 hi Todo         guifg=#c81414   guibg=#ffffff
+
+hi pythonClassTag    guifg=#f00078                   gui=none
+hi pythonMethodTag   guifg=#f00078                   gui=none
+hi pythonFunctionTag guifg=#f00078                   gui=none
 

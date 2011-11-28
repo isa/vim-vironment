@@ -21,6 +21,7 @@ Bundle 'isa/vim-sparkup'
 Bundle 'isa/vim-slim'
 Bundle 'isa/vim-tagbar'
 Bundle 'isa/vim-csapprox'
+Bundle 'isa/vim-easytags'
 
 filetype plugin indent on
 
@@ -40,4 +41,5 @@ source $HOME/.vim/statusbar.vim
 source $HOME/.vim/completions.vim
 source $HOME/.vim/plugins.vim
 source $HOME/.vim/mappings.vim
+source $HOME/.vim/ftsettings.vim
 

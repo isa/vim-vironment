@@ -40,12 +40,14 @@ set nowrap
 set linebreak " wrap lines at convenient places
 
 set history=1000 "store lots of :cmdline history
+set undolevels=1000 "as many as undos possible
 
 set number
 set virtualedit=all
 set vb " set the visual bell
 set backspace=indent,eol,start " Allow backspacing over indent, eol, and the start of an insert
 set wildmenu
+set wildignore=*.swp,*.bak,*.pyc,*.class
 set list
 set listchars=tab:▸\ ,eol:¬,trail:⋅,extends:❯,precedes:❮
 set showbreak=↪
@@ -59,6 +61,8 @@ set hidden "enables switching between buffers while having unsaved changes
 set nobackup
 set nowritebackup
 set noswapfile
+
+set pastetoggle=<F8> "enable paste toggle and map it to F8
 
 "folding settings
 set foldmethod=indent   "fold based on indent

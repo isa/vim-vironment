@@ -14,9 +14,6 @@ nnoremap <F3> :TagbarToggle<cr>
 " Show Gundo browser
 nnoremap <F5> :GundoToggle<cr>
 
-"disable autoindent
-nnoremap <F8> :setl noai nocin nosi inde=<CR>
-
 " Use control+enter or jj for escaping
 inoremap jj <esc>
 
@@ -25,6 +22,12 @@ nnoremap j gj
 vnoremap j gj
 nnoremap k gk
 vnoremap k gk
+
+" Easy window navigation
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
 
 " !! to write file as sudo
 cmap w!! %!sudo tee > /dev/null %
