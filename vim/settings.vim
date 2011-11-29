@@ -6,6 +6,7 @@ if has("gui_running")
    set guioptions-=T
    set guioptions-=L
    set guioptions-=r
+   set showtabline=2 " always show the tabbar
    set lines=48
    set columns=102
    set cursorline
