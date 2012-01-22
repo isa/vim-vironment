@@ -8,7 +8,7 @@ My custom configuration for MacVim.
 * git submodule update
 * For OSX/Linux create a symbolic link for vimrc and vim folders in your home folder
     * ln -s /home/&lt;home-folder&gt;/.vim-vironment/vimrc ~/.vimrc
-    * ln -s /home/&lt;home-folder&gt;/.vim-vironment .vim
+    * ln -s /home/&lt;home-folder&gt;/.vim-vironment/vim ~/.vim
 * Finally, launch Vim and run *:BundleInstall*
 
 ### Supported Vim Plugins

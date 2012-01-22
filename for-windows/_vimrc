@@ -1,0 +1,39 @@
+set nocompatible
+
+filetype off
+
+set rtp+=$HOME/.vim/bundle/vundle/
+call vundle#rc()
+
+" let Vundle manage Vundle
+Bundle 'isa/vim-vundle'
+
+Bundle 'isa/vim-commentary'
+Bundle 'isa/vim-easymotion'
+Bundle 'isa/vim-l9'
+Bundle 'isa/vim-fuzzyfinder'
+Bundle 'isa/vim-gundo'
+Bundle 'isa/vim-markdown'
+Bundle 'isa/vim-matchit'
+
+filetype plugin indent on
+
+syn on
+set synmaxcol=2048 " Syntax coloring lines that are too long just slows down the world
+set background=light
+set t_Co=256 " Set colors to 256 min
+
+" Stuff I change the most
+" colo jellybeans
+colo bclear
+set expandtab ts=3 sw=3 sts=3
+set path=$HOME/Workspace/** " Enable find command under projects dir
+
+source $VIMRUNTIME/mswin.vim
+behave mswin
+source $HOME/.vim/settings.vim
+source $HOME/.vim/statusbar.vim
+source $HOME/.vim/completions.vim
+source $HOME/.vim/plugins.vim
+source $HOME/.vim/mappings.vim
+source $HOME/.vim/ftsettings.vim

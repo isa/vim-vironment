@@ -1,6 +1,7 @@
 " ======= GENERAL SETTINGS =======
 
 if has("gui_running")
+   colo bclear
    winpos 720 23
    set guifont=Monaco:h12
    set guioptions-=T
