@@ -9,7 +9,6 @@ Bundle 'isa/vim-vundle'
 
 " My Bundles here:
 Bundle 'isa/vim-ack'
-Bundle 'isa/vim-clojure'
 Bundle 'isa/vim-commentary'
 Bundle 'isa/vim-easymotion'
 Bundle 'isa/vim-l9'
@@ -18,16 +17,12 @@ Bundle 'isa/vim-gundo'
 Bundle 'isa/vim-markdown'
 Bundle 'isa/vim-matchit'
 Bundle 'isa/vim-sparkup'
-Bundle 'isa/vim-slim'
-Bundle 'isa/vim-tagbar'
-Bundle 'isa/vim-csapprox'
-Bundle 'isa/vim-easytags'
 
 filetype plugin indent on
 
 syn on
 set synmaxcol=2048 " Syntax coloring lines that are too long just slows down the world
-set background=light
+set background=dark
 set t_Co=256 " Set colors to 256 min
 
 " Stuff I change the most

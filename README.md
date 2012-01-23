@@ -1,4 +1,4 @@
-My custom configuration for MacVim. 
+My custom configuration for MacVim/GVim. 
 
 ### Installation
 
@@ -9,24 +9,20 @@ My custom configuration for MacVim.
 * For OSX/Linux create a symbolic link for vimrc and vim folders in your home folder
     * ln -s /home/&lt;home-folder&gt;/.vim-vironment/vimrc ~/.vimrc
     * ln -s /home/&lt;home-folder&gt;/.vim-vironment/vim ~/.vim
-* Finally, launch Vim and run *:BundleInstall*
+* Finally, launch MacVim/GVim and just run *:BundleInstall*
+
+PS. For stupid Windows I've also created custom vim files which fixes encoding issues and some mapping issues. Please check *for-windows* folder.
 
 ### Supported Vim Plugins
 
 * "Vundle":http://www.vim.org/scripts/script.php?script_id=2332 (For bundling support)
 * "Ack":http://www.vim.org/scripts/script.php?script_id=2572 (Ack support)
-* "Clojure":http://www.vim.org/scripts/script.php?script_id=2501 (For Clojure support)
 * "Commentary":http://www.vim.org/scripts/script.php?script_id=3695 (Very simple commenting plugin)
 * "Easy Motion":http://www.vim.org/scripts/script.php?script_id=3526 (Extends Vim motion capabilities, very neat)
 * "Fuzzy Finder":https://github.com/isa/vim-fuzzyfinder (Command-T like plugin to locate files and buffers)
 * "Gundo":http://bitbucket.org/sjl/gundo.vim/src (Local history support for Vim)
 * "Markdown":http://www.vim.org/scripts/script.php?script_id=1242 (Adds Markdown syntax support)
 * "Match It":http://www.vim.org/scripts/script.php?script_id=39 (Fixes matching tags for HTML)
-* "Slim":https://github.com/isa/vim-slim (Slim template support for Vim)
-* "SnipMate":https://github.com/garbas/vim-snipmate.git (Enables TextMate like completions)
-* "Spark Up":https://github.com/rstacruz/sparkup.git (Enables Zen style coding)
-* "Tagbar":https://github.com/isa/vim-tagbar (Enables ctags browsing, requires ctags-exuberant to be installed in the system)
-* "CSApprox":https://github.com/isa/vim-csapprox (Allows colorschemes to work on the color terminals without need of finding a terminal support)
 
 ### Mappings
 
@@ -43,7 +39,6 @@ My custom configuration for MacVim.
 
 ### Plugin Settings/Mappings
 
-* Tagbar is mapped to F3
 * Gundo is mapped to F5
 * EasyMotion lead key is ,m
 * FuzzyFinder for file is mapped to ,f

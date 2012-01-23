@@ -9,8 +9,6 @@ vnoremap <BS> d
 " Format xml files
 nnoremap <F2> :silent 1,$!xmllint --format --recover - 2>/dev/null<cr>
 
-nnoremap <F3> :TagbarToggle<cr>
-
 " Show Gundo browser
 nnoremap <F5> :GundoToggle<cr>
 
