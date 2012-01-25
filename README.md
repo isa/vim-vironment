@@ -20,9 +20,11 @@ PS. For stupid Windows I've also created custom vim files which fixes encoding i
 * "Commentary":http://www.vim.org/scripts/script.php?script_id=3695 (Very simple commenting plugin)
 * "Easy Motion":http://www.vim.org/scripts/script.php?script_id=3526 (Extends Vim motion capabilities, very neat)
 * "Fuzzy Finder":https://github.com/isa/vim-fuzzyfinder (Command-T like plugin to locate files and buffers)
-* "Gundo":http://bitbucket.org/sjl/gundo.vim/src (Local history support for Vim)
+* "Gundo":http://bitbucket.org/sjl/gundo.vim/src (History visualization support for Vim)
 * "Markdown":http://www.vim.org/scripts/script.php?script_id=1242 (Adds Markdown syntax support)
 * "Match It":http://www.vim.org/scripts/script.php?script_id=39 (Fixes matching tags for HTML)
+* "Spark Up":http://github.com/isa/vim-sparkup (Enables Zen HTML coding)
+* "Ultisnips":http://www.vim.org/scripts/script.php?script_id=2715 (The best snippet management plugin ever)
 
 ### Mappings
 
