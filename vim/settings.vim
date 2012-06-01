@@ -1,19 +1,21 @@
 " ======= GENERAL SETTINGS =======
 
+set foldcolumn=1 " this is just the console
+
 if has("gui_running")
-   set background=light
-   colo bclear
    winpos 720 23
-   set guifont=Bitstream\ Vera\ Sans\ Mono:h12
+   set guifont=Liberation\ Mono:h14
    set guioptions-=T
    set guioptions-=L
    set guioptions-=r
    set showtabline=2 " always show the tabbar
    set lines=55
-   set columns=102
+   set columns=93
    set cursorline
    set browsedir=buffer
    set lazyredraw " to speed up
+   set number
+   set foldcolumn=0
 endif
 
 set autochdir
@@ -45,7 +47,6 @@ set linebreak " wrap lines at convenient places
 set history=1000 "store lots of :cmdline history
 set undolevels=1000 "as many as undos possible
 
-set number
 set virtualedit=all
 set vb " set the visual bell
 set backspace=indent,eol,start " Allow backspacing over indent, eol, and the start of an insert
@@ -73,4 +74,6 @@ set foldnestmax=10      "fold nest level maximum is 10
 set nofoldenable        "dont fold by default
 set foldopen=block,insert,jump,mark,percent,quickfix,search,tag,undo " These commands open folds
 set foldlevel=1
+
+let g:netrw_dirhistmax=0 " Disables new read write history file creation (.newrwhist file)
 

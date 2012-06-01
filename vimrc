@@ -1,4 +1,4 @@
-set nocompatible "This must be first, because it changes other options as a side effect.
+set nocompatible " This must be first, because it changes other options as a side effect.
 filetype off
 
 set rtp+=~/.vim/bundle/vim-vundle/
@@ -11,23 +11,24 @@ Bundle 'isa/vim-vundle'
 Bundle 'isa/vim-ack'
 Bundle 'isa/vim-commentary'
 Bundle 'isa/vim-easymotion'
-Bundle 'isa/vim-l9'
-Bundle 'isa/vim-fuzzyfinder'
 Bundle 'isa/vim-gundo'
+Bundle 'isa/vim-pad'
 Bundle 'isa/vim-markdown'
 Bundle 'isa/vim-matchit'
 Bundle 'isa/vim-sparkup'
 Bundle 'isa/vim-ultisnips'
+Bundle 'isa/vim-ctrlp'
 
 filetype plugin indent on
 
 syn on
 set synmaxcol=2048 " Syntax coloring lines that are too long just slows down the world
 set background=dark
+highlight clear
 set t_Co=256 " Set colors to 256 min
 
 " Stuff I change the most
-colo jellybeans
+colo bclear
 set expandtab ts=3 sw=3 sts=3
 set path=$HOME/Projects/** " Enable find command under projects dir
 
