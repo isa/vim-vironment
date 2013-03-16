@@ -4,7 +4,7 @@ set foldcolumn=1 " this is just the console
 
 if has("gui_running")
    winpos 720 23
-   set guifont=Liberation\ Mono:h14
+   set guifont=Monaco:h12
    set guioptions-=T
    set guioptions-=L
    set guioptions-=r

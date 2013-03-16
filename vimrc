@@ -27,7 +27,7 @@ highlight clear
 set t_Co=256 " Set colors to 256 min
 
 " Stuff I change the most
-colo bclear
+colo Tomorrow-Night
 set expandtab ts=3 sw=3 sts=3
 set path=$HOME/Projects/** " Enable find command under projects dir
 
